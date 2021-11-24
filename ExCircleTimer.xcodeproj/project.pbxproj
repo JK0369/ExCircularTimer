@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		4AA2257F274DF5AB0017C2C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2257E274DF5AB0017C2C4 /* AppDelegate.swift */; };
 		4AA22581274DF5AB0017C2C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA22580274DF5AB0017C2C4 /* SceneDelegate.swift */; };
-		4AA22583274DF5AB0017C2C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA22582274DF5AB0017C2C4 /* ViewController.swift */; };
-		4AA22586274DF5AB0017C2C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA22584274DF5AB0017C2C4 /* Main.storyboard */; };
+		4AA22583274DF5AB0017C2C4 /* SettingTimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA22582274DF5AB0017C2C4 /* SettingTimerVC.swift */; };
 		4AA22588274DF5AC0017C2C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA22587274DF5AC0017C2C4 /* Assets.xcassets */; };
 		4AA2258B274DF5AC0017C2C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA22589274DF5AC0017C2C4 /* LaunchScreen.storyboard */; };
-		4AA22596274DF5AC0017C2C4 /* ExCircleTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA22595274DF5AC0017C2C4 /* ExCircleTimerTests.swift */; };
-		4AA225A0274DF5AC0017C2C4 /* ExCircleTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2259F274DF5AC0017C2C4 /* ExCircleTimerUITests.swift */; };
-		4AA225A2274DF5AC0017C2C4 /* ExCircleTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA225A1274DF5AC0017C2C4 /* ExCircleTimerUITestsLaunchTests.swift */; };
+		4AA225AF274DF6450017C2C4 /* RepeatingSecondsTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA225AE274DF6450017C2C4 /* RepeatingSecondsTimer.swift */; };
+		4AA225B3274DFBC80017C2C4 /* CircularTimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA225B2274DFBC80017C2C4 /* CircularTimerVC.swift */; };
+		4AA225B5274DFF3C0017C2C4 /* CircularTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA225B4274DFF3C0017C2C4 /* CircularTimerView.swift */; };
+		4AA225BE274E0B370017C2C4 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA225BD274E0B370017C2C4 /* TimeInterval.swift */; };
+		4AA225C0274E0B940017C2C4 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA225BF274E0B940017C2C4 /* Int.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +40,17 @@
 		4AA2257B274DF5AB0017C2C4 /* ExCircleTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExCircleTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA2257E274DF5AB0017C2C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA22580274DF5AB0017C2C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4AA22582274DF5AB0017C2C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4AA22585274DF5AB0017C2C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AA22582274DF5AB0017C2C4 /* SettingTimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTimerVC.swift; sourceTree = "<group>"; };
 		4AA22587274DF5AC0017C2C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AA2258A274DF5AC0017C2C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AA2258C274DF5AC0017C2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AA22591274DF5AC0017C2C4 /* ExCircleTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExCircleTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AA22595274DF5AC0017C2C4 /* ExCircleTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExCircleTimerTests.swift; sourceTree = "<group>"; };
 		4AA2259B274DF5AC0017C2C4 /* ExCircleTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExCircleTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AA2259F274DF5AC0017C2C4 /* ExCircleTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExCircleTimerUITests.swift; sourceTree = "<group>"; };
-		4AA225A1274DF5AC0017C2C4 /* ExCircleTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExCircleTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AA225AE274DF6450017C2C4 /* RepeatingSecondsTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingSecondsTimer.swift; sourceTree = "<group>"; };
+		4AA225B2274DFBC80017C2C4 /* CircularTimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTimerVC.swift; sourceTree = "<group>"; };
+		4AA225B4274DFF3C0017C2C4 /* CircularTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTimerView.swift; sourceTree = "<group>"; };
+		4AA225BD274E0B370017C2C4 /* TimeInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
+		4AA225BF274E0B940017C2C4 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				4AA2257D274DF5AB0017C2C4 /* ExCircleTimer */,
-				4AA22594274DF5AC0017C2C4 /* ExCircleTimerTests */,
-				4AA2259E274DF5AC0017C2C4 /* ExCircleTimerUITests */,
 				4AA2257C274DF5AB0017C2C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,32 +99,75 @@
 		4AA2257D274DF5AB0017C2C4 /* ExCircleTimer */ = {
 			isa = PBXGroup;
 			children = (
-				4AA2257E274DF5AB0017C2C4 /* AppDelegate.swift */,
-				4AA22580274DF5AB0017C2C4 /* SceneDelegate.swift */,
-				4AA22582274DF5AB0017C2C4 /* ViewController.swift */,
-				4AA22584274DF5AB0017C2C4 /* Main.storyboard */,
-				4AA22587274DF5AC0017C2C4 /* Assets.xcassets */,
-				4AA22589274DF5AC0017C2C4 /* LaunchScreen.storyboard */,
-				4AA2258C274DF5AC0017C2C4 /* Info.plist */,
+				4AA225BB274E0B020017C2C4 /* Resource */,
+				4AA225BA274E0AF40017C2C4 /* Application */,
+				4AA225B9274E0AC40017C2C4 /* Component */,
+				4AA225B8274E0AC30017C2C4 /* Model */,
+				4AA225B7274E0ABE0017C2C4 /* View */,
+				4AA225B6274E0ABB0017C2C4 /* Controller */,
 			);
 			path = ExCircleTimer;
 			sourceTree = "<group>";
 		};
-		4AA22594274DF5AC0017C2C4 /* ExCircleTimerTests */ = {
+		4AA225B6274E0ABB0017C2C4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4AA22595274DF5AC0017C2C4 /* ExCircleTimerTests.swift */,
+				4AA22582274DF5AB0017C2C4 /* SettingTimerVC.swift */,
+				4AA225B2274DFBC80017C2C4 /* CircularTimerVC.swift */,
 			);
-			path = ExCircleTimerTests;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		4AA2259E274DF5AC0017C2C4 /* ExCircleTimerUITests */ = {
+		4AA225B7274E0ABE0017C2C4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4AA2259F274DF5AC0017C2C4 /* ExCircleTimerUITests.swift */,
-				4AA225A1274DF5AC0017C2C4 /* ExCircleTimerUITestsLaunchTests.swift */,
+				4AA225B4274DFF3C0017C2C4 /* CircularTimerView.swift */,
 			);
-			path = ExCircleTimerUITests;
+			path = View;
+			sourceTree = "<group>";
+		};
+		4AA225B8274E0AC30017C2C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4AA225B9274E0AC40017C2C4 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				4AA225AE274DF6450017C2C4 /* RepeatingSecondsTimer.swift */,
+				4AA225BC274E0B2D0017C2C4 /* Extension */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		4AA225BA274E0AF40017C2C4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4AA2257E274DF5AB0017C2C4 /* AppDelegate.swift */,
+				4AA22580274DF5AB0017C2C4 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4AA225BB274E0B020017C2C4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4AA22587274DF5AC0017C2C4 /* Assets.xcassets */,
+				4AA22589274DF5AC0017C2C4 /* LaunchScreen.storyboard */,
+				4AA2258C274DF5AC0017C2C4 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4AA225BC274E0B2D0017C2C4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4AA225BD274E0B370017C2C4 /* TimeInterval.swift */,
+				4AA225BF274E0B940017C2C4 /* Int.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +276,6 @@
 			files = (
 				4AA2258B274DF5AC0017C2C4 /* LaunchScreen.storyboard in Resources */,
 				4AA22588274DF5AC0017C2C4 /* Assets.xcassets in Resources */,
-				4AA22586274DF5AB0017C2C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA22583274DF5AB0017C2C4 /* ViewController.swift in Sources */,
+				4AA225BE274E0B370017C2C4 /* TimeInterval.swift in Sources */,
+				4AA22583274DF5AB0017C2C4 /* SettingTimerVC.swift in Sources */,
+				4AA225AF274DF6450017C2C4 /* RepeatingSecondsTimer.swift in Sources */,
 				4AA2257F274DF5AB0017C2C4 /* AppDelegate.swift in Sources */,
+				4AA225B5274DFF3C0017C2C4 /* CircularTimerView.swift in Sources */,
 				4AA22581274DF5AB0017C2C4 /* SceneDelegate.swift in Sources */,
+				4AA225B3274DFBC80017C2C4 /* CircularTimerVC.swift in Sources */,
+				4AA225C0274E0B940017C2C4 /* Int.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA22596274DF5AC0017C2C4 /* ExCircleTimerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +322,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA225A0274DF5AC0017C2C4 /* ExCircleTimerUITests.swift in Sources */,
-				4AA225A2274DF5AC0017C2C4 /* ExCircleTimerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +341,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4AA22584274DF5AB0017C2C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4AA22585274DF5AB0017C2C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4AA22589274DF5AC0017C2C4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,10 +477,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SS7U83UJNK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExCircleTimer/Info.plist;
+				INFOPLIST_FILE = ExCircleTimer/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,10 +504,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SS7U83UJNK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExCircleTimer/Info.plist;
+				INFOPLIST_FILE = ExCircleTimer/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
